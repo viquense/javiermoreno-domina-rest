@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Consulta saldo producto</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+    </head>
+    <body>
+        <h1>Consulta saldo producto</h1>
+        
+        <form action="">
+            <label for="">Introduce código</label>
+            <input type="text" name="codigo" />
+            <input type="submit" value="Consultar" />
+        </form>
+     
+        
+        <div id="informacion">
+            <p>Pulsa aceptar para recuperar el saldo. </p>
+        </div>
+        
+        <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+        <script src="index.js"></script>
+
+        <script>
+            $(document).ready(function() {
+               inicializarControlador();
+            });
+        </script>
+        
+    </body>
+</html>

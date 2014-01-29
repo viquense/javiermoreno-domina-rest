@@ -1,0 +1,20 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.javiermoreno.dominarest</groupId>
+  <artifactId>domina-rest</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <name>domina-rest</name>
+    <modules>
+        <module>modules/02_banco_modelo</module>
+        <module>modules/03_banco_servlets</module>
+        <module>modules/04_banco_servlets3</module>
+        <module>modules/05_banco_jersey</module>
+        <module>modules/05_banco_jersey_cors</module>
+        <module>modules/05_banco_jersey_jsonp</module>
+        <module>modules/05_banco_jersey_swagger</module>
+        <module>modules/06_banco_clientehtml</module>
+        <module>modules/07_banco_cliente_console</module>
+    </modules>
+</project>
